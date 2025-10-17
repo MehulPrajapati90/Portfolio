@@ -22,7 +22,7 @@ const Navbar = () => {
         <h2 className='text-[16px] font-normal'>{time.hour}:{time.minutes}:{time.second < 10 ? "0" + time.second : time.second}</h2>
       </div>
       <div className='flex justify-center items-center gap-1'>
-        <MapPin size={20} className='' />
+        <MapPin size={18} className='' />
         <h2 className='tracking-[-1px] text-[16px] font-medium'>Earth, India</h2>
       </div>
     </div>

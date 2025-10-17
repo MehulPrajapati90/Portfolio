@@ -120,14 +120,27 @@
   font-display: swap;
 }
 
-.font-dirty{
+@font-face {
+  font-family: "Quartens";
+  src: url("/fonts/Quartens.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-dirty {
   font-family: "Dirtylane", sans-serif;
+}
+
+.font-quartens {
+  font-family: "@Quartens", sans-serif;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

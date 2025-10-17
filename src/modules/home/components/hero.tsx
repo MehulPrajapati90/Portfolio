@@ -1,6 +1,7 @@
 import React from 'react'
 import Profile from './profile';
 import { DownloadCloud, Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import Footer from './footer';
 
 const Hero = () => {
   return (
@@ -255,8 +256,7 @@ const Hero = () => {
       </div>
       <div className='w-[50%] min-h-auto border-1 border-[#2C2C2C] flex flex-col justify-center font-sans p-3'>
       </div>
-      <div className='w-[50%] min-h-auto border-1 border-[#2C2C2C] flex flex-col justify-center font-sans p-3'>
-      </div>
+      <Footer/>
     </div>
   )
 }

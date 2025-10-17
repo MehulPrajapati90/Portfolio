@@ -1,10 +1,7 @@
 "use client";
 
-import { gsap } from "gsap";
-import { ScrollSmoother } from "gsap/ScrollSmoother";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Hero from '@/modules/home/components/hero'
-import React, { useEffect } from 'react'
+import React from 'react'
 
 const Home = () => {
   return (

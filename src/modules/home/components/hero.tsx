@@ -16,10 +16,18 @@ const Hero = () => {
         </div>
 
         <div className='w-full flex flex-col justify-center px-10 gap-3 py-5'>
-          <h2 className='text-[14px] tracking-[-0.3px] text-[#A0A0B6]'>I'm <span className='text-[#f3f3f3]'>Mehul</span>, a 20yo developer living in Chhattisgarh, India. I love to <span className='text-[#f3f3f3]'>Code</span> and play with (<span className='text-[#f3f3f3]'>Ai</span>) ya I do play with AI.</h2>
-          <h2 className='text-[14px] font-normal tracking-[-0.3px] text-[#A0A0B6]'>I’m Obsessed with both <span className='text-[#f3f3f3]'>Design</span> & <span className='text-[#f3f3f3]'>Development</span>. So What I mean with <span className='text-[#f3f3f3]'>Obsessed</span> is basically, I love what I do.</h2>
-          <h2 className='text-[14px] font-normal tracking-[-0.3px] text-[#A0A0B6]'>I Spend my most of time <span className='text-[#f3f3f3]'>Learning</span> & <span className='text-[#f3f3f3]'>Building</span> things or probably doing blunders with Web-3 yes I’m actually a <span className='text-[#f3f3f3]'>Web 3 guy</span>, But if I have access of time I spend it mostly Dreaming yes I day Dream a Lot. </h2>
-          <h2 className='text-[14px] font-normal tracking-[-0.3px] text-[#A0A0B6]'>If Ibe real: I'm not a guy who loves to be on Instagram rather I chose to <span className='text-[#f3f3f3]'>Sleep</span> well, yes sleep is like <span className='text-[#f3f3f3]'>Bitcoin's</span> for me... & I know What I feel will become realty one day. </h2>
+          <h2 className='text-[14px] tracking-[-0.3px] text-[#A0A0B6]'>
+            {`I'm `}<span className='text-[#f3f3f3]'>Mehul</span>, a 20yo developer living in Chhattisgarh, India. I love to <span className='text-[#f3f3f3]'>Code</span> and play with (<span className='text-[#f3f3f3]'>Ai</span>) ya I do play with AI.
+          </h2>
+          <h2 className='text-[14px] font-normal tracking-[-0.3px] text-[#A0A0B6]'>
+            {`I'm Obsessed with both `}<span className='text-[#f3f3f3]'>Design</span> & <span className='text-[#f3f3f3]'>Development</span>. So What I mean with <span className='text-[#f3f3f3]'>Obsessed</span> is basically, I love what I do.
+          </h2>
+          <h2 className='text-[14px] font-normal tracking-[-0.3px] text-[#A0A0B6]'>
+            {`I Spend my most of time `}<span className='text-[#f3f3f3]'>Learning</span> & <span className='text-[#f3f3f3]'>Building</span> things or probably doing blunders with Web-3 yes {`I'm actually a `}<span className='text-[#f3f3f3]'>Web 3 guy</span>, But if I have access of time I spend it mostly Dreaming yes I day Dream a Lot.
+          </h2>
+          <h2 className='text-[14px] font-normal tracking-[-0.3px] text-[#A0A0B6]'>
+            {`If I be real: I'm not a guy who loves to be on Instagram rather I chose to `}<span className='text-[#f3f3f3]'>Sleep</span> well, yes sleep is like <span className='text-[#f3f3f3]'>{`Bitcoin's`}</span> for me... & I know What I feel will become realty one day.
+          </h2>
         </div>
 
         <div className='w-full flex justify-between items-center pl-10 gap-10'>
@@ -88,7 +96,7 @@ const Hero = () => {
               <h2 className='text-white font-dirty text-[50px] tracking-[0.2px]'>Skills.</h2>
               <h3 className='text-[13px] font-sans text-[#9999A5] tracking-[-0.2px]'>Which i used to build products&nbsp;!</h3>
             </div>
-            <h4 className='text-[13.5px] font-sans text-[#9999A5] tracking-[-0.4px] leading-4'>These are the technologies I've learned and worked with. This list is constantly evolving as I continue to learn and grow as a developer.</h4>
+            <h4 className='text-[13.5px] font-sans text-[#9999A5] tracking-[-0.4px] leading-4'>{`These are the technologies I've learned and worked with. This list is constantly evolving as I continue to learn and grow as a developer.`}</h4>
 
             <div className='min-h-auto w-full flex flex-col justify-center items-center gap-4'>
               <div className='flex flex-col justify-center items-start mt-5 gap-3 w-full min-h-auto'>
@@ -204,7 +212,7 @@ const Hero = () => {
               </div>
 
               <div className='flex flex-col justify-center items-start mt-5 gap-3 w-full min-h-auto'>
-                <h2 className='text-white font-dirty text-[30px] tracking-[0.5px]'>Developer's Tools</h2>
+                <h2 className='text-white font-dirty text-[30px] tracking-[0.5px]'>{`Developer's Tools`}</h2>
                 <div className='flex flex-wrap justify-start items-center gap-[10px] w-full min-h-auto'>
                   <div className='border border-[#27272A] bg-[#18181B] flex justify-center items-center gap-2 px-5 py-2 rounded-[8px]'>
                     <Twitter size={18} className='text-[#4f4f55]' />
@@ -241,7 +249,7 @@ const Hero = () => {
               <h2 className='text-white font-dirty text-[50px] tracking-[0.2px]'>Projects.</h2>
               <h3 className='text-[13px] font-sans text-[#9999A5] tracking-[-0.2px]'>These are products less projects!</h3>
             </div>
-            <h4 className='text-[13.5px] font-sans text-[#9999A5] tracking-[-0.4px] leading-4'>These are some projects that I've made during my learning process. This list is constantly evolving as I continue to learn and grow as a developer.</h4>
+            <h4 className='text-[13.5px] font-sans text-[#9999A5] tracking-[-0.4px] leading-4'>{`These are some projects that I've made during my learning process. This list is constantly evolving as I continue to learn and grow as a developer.`}</h4>
 
             <div className='min-h-auto w-full flex flex-col justify-center items-center gap-4'>
               <div className='flex flex-col justify-center items-center mt-5 gap-3 w-full min-h-auto'>
@@ -249,14 +257,12 @@ const Hero = () => {
                 <div className='flex flex-wrap justify-start items-center gap-[10px] w-full min-h-auto'></div>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
       <div className='w-[50%] min-h-auto border-1 border-[#2C2C2C] flex flex-col justify-center font-sans p-3'>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
